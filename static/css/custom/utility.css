@@ -3,6 +3,14 @@ body{
     background-color: #f4f4f4;
 
 }
+input , button ,select ,textarea {
+    border-radius: 0 !important;
+}
+.card, .card-img-top{
+    border-radius: 0 !important;
+}
+
+
 .btn-primary{
     background-color: #46599B !important;
     color: white;
