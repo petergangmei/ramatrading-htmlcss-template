@@ -1,0 +1,32 @@
+.btn-view-all-registered-product{
+    background-color: #0d7fd1;
+    color: white;
+    text-transform: initial;
+    font-size: 15px;
+    border-radius: 0;
+}
+
+.btn-view-all-registered-product:hover{
+    background-color: #066cb4;
+    color: white;
+    text-transform: initial;
+    font-size: 15px;
+}
+.c2a{
+    box-shadow: 2px 2px 5px 1px gray !important;
+}
+.contact-info{
+    background-color:  #f3eded;
+    box-shadow: 2px 2px 5px 1px gray !important;
+
+}
+.profile-info{
+    background-color:  #f3eded;
+    box-shadow: 2px 2px 5px 1px gray !important;
+}
+.contact-info p{
+    font-size: 19px;
+}
+.contact-info i{
+    padding-right: 15px;
+}

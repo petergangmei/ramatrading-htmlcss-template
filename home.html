@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MDB design</title>
+        <link rel="stylesheet" href="static/css/mdb.min.css">
+        <link rel="stylesheet" href="static/css/custom/main.css">
+
+        <!-- icons -->
+        <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css">
+        <!-- Font Awesome -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+            rel="stylesheet"
+            />
+
+        <!-- Google Fonts -->
+        <link
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+            rel="stylesheet"
+            />
+
+    </head>
+    <body>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!-- Container wrapper -->
+            <div class="container-fluid">
+                <!-- Toggle button -->
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse"
+                    id="navbarSupportedContent">
+                    <!-- Navbar brand -->
+                    <a class="navbar-brand mt-2 mt-lg-0" href="#">
+                        <img
+                            src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
+                            height="15"
+                            alt="MDB Logo"
+                            loading="lazy"
+                            />
+                    </a>
+                    <!-- Left links -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Projects</a>
+                        </li>
+                    </ul>
+                    <!-- Left links -->
+                </div>
+                <!-- Collapsible wrapper -->
+
+                <!-- Right elements -->
+                <div class="d-flex align-items-center">
+                    <!-- Icon -->
+                    <a class="text-reset me-3" href="#">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+
+                    <!-- Notifications -->
+                    <div class="dropdown">
+                        <a
+                            class="text-reset me-3 dropdown-toggle hidden-arrow"
+                            href="#"
+                            id="navbarDropdownMenuLink"
+                            role="button"
+                            data-mdb-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fas fa-bell"></i>
+                            <span class="badge rounded-pill badge-notification
+                                bg-danger">1</span>
+                        </a>
+                        <ul
+                            class="dropdown-menu dropdown-menu-end"
+                            aria-labelledby="navbarDropdownMenuLink">
+                            <li>
+                                <a class="dropdown-item" href="#">Some news</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Another news</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Something else
+                                    here</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Avatar -->
+                    <div class="dropdown">
+                        <a
+                            class="dropdown-toggle d-flex align-items-center
+                            hidden-arrow"
+                            href="#"
+                            id="navbarDropdownMenuAvatar"
+                            role="button"
+                            data-mdb-toggle="dropdown"
+                            aria-expanded="false">
+                            <img
+                                src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+                                class="rounded-circle"
+                                height="25"
+                                alt="Black and White Portrait of a Man"
+                                loading="lazy"
+                                />
+                        </a>
+                        <ul
+                            class="dropdown-menu dropdown-menu-end"
+                            aria-labelledby="navbarDropdownMenuAvatar">
+                            <li>
+                                <a class="dropdown-item" href="#">My profile</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Settings</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Right elements -->
+            </div>
+            <!-- Container wrapper -->
+        </nav>
+        <!-- Navbar -->
+
+        <!-- Join what's app -->
+        <div class="d-flex bg-primary text-white justify-content-center
+            align-items-center" style="height: 60px;">
+            <p class="fw-bold mt-3"> <span class="ion-radio-waves mt-3" style="font-size: 25px;"></span> Join us at What's app for live market update</p>
+        </div>
+
+        <!-- here section -->
+        <!-- background: url('static/img/dummy/bg-hero.png'); -->
+        <div class="p-5 d-flex justify-content-center align-items-center" style="background-color: rgb(238, 238, 238); height:90vh; background-repeat: no-repeat; background-size: cover;">
+            <div class="row w-60  text-center">
+                <h3>FREE MCS TIPS</h3>
+                <h1 class="fw-bold" style="font-size: 60px;">GET FREE TRIAL</h1>
+                <div class="col-lg-3">
+                    <input type="text" placeholder="Name" class="form-control py-3 mt-3">
+                </div>
+                <div class="col-lg-3">
+                    <input type="text" placeholder="Number" class="form-control py-3 mt-3">
+                </div>
+                <div class="col-lg-3">
+                    <select class="form-control py-3 mt-3">
+                        <option value="">Segment1</option>
+                        <option value="">Segment2</option>
+                    </select>
+                </div>
+                <div class="col-lg-3">
+                    <button class="btn form-control btn-primary py-3 mt-3">Get free trial</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- about us  -->
+        <div class="container d-flex justify-content-center align-content-center" style="min-height: 60vh;">
+            <div class="row mt-5 ">
+                <div class="col-lg-6 mt-5">
+                    <img src="static/img/dummy/about us img.png" class=""/>
+                </div>
+                <div class="col-lg-6 mt-5 ">
+                    <div class="container ">
+                        <h3>A few words about us</h3>
+                    <p>Our aim to deliver the best rewards at minimum possible risk in Commodities , Forex & Comex Calls. We do not offer fake services & Support. Because you will invest your precious money with making 100% trust on the company. We updated 100% true performance, which gives you confidence of taking the decision. DS Commodity Offers You The Superlative Investment & Trading Way out In Commodity Tips. DS Commodity Includes Bullion, Energy, Base metal Services In Commodity Trading Calls.We provides Support through Telephonic Technology also.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- call us` -->
+        <div class="d-flex justify-content-center align-items-center bg-primary text-white" style="min-height: 60px;">
+            <div class="row py-3">
+                <div class="col-lg-6 d-flex justify-content-center ">
+                    <p class="fw-bold"> <span class="ion-radio-waves " style="font-size: 25px;"></span> Want to recover your previous losses ? Contact Us Right Now!  </p>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-sm-center justify-content-lg-start ">
+                    <button class="btn btn-dark py-3 px-5 ms-4">98765463210</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- why choose us -->
+        <div class="container " style="min-height: 70vh;">
+            <div class="mt-5">
+            <h3>Why Choose US</h3>
+            <p>We believes not only in Customer satisfaction but we feel that it is our duty to go beyond the ways to delight our clients. We provide 24x7 hours customer support to ensure that our clients get the best solutions at the right time for their queries.</p>
+            </div>
+            <div class="d-lg-flex justify-content-center">
+                <div class="card bg-dark text-white hover-shadow mt-5 mx-3" style="height: 250px; ">
+                    <img src="https://mdbcdn.b-cdn.net/img/new/slides/017.webp" class="card-img" alt="Stony Beach"/>
+                    <div class="card-img-overlay text-center d-flex align-items-end">
+                        <div>
+                            <h4 class="card-title">9+  Years of Experience</h4>
+                            <p class="card-text fw-light">
+                                We have more than 9 years in MCX Market Research Experiance.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-dark text-white hover-shadow mt-5 mx-3" style="height: 250px;">
+                    <img src="https://mdbcdn.b-cdn.net/img/new/slides/017.webp" class="card-img" alt="Stony Beach"/>
+                    <div class="card-img-overlay text-center d-flex align-items-end">
+                        <div>
+                            <h4 class="card-title">9+  Years of Experience</h4>
+                            <p class="card-text fw-light">
+                                We have more than 9 years in MCX Market Research Experiance.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-dark text-white hover-shadow mt-5 mx-3" style="height: 250px; ">
+                    <img src="https://mdbcdn.b-cdn.net/img/new/slides/017.webp" class="card-img" alt="Stony Beach"/>
+                    <div class="card-img-overlay text-center d-flex align-items-end">
+                        <div>
+                            <h4 class="card-title">9+  Years of Experience</h4>
+                            <p class="card-text fw-light">
+                                We have more than 9 years in MCX Market Research Experiance.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-lg-flex justify-content-center">
+                <div class="card bg-dark text-white hover-shadow mt-5 mx-3" style="height: 250px;">
+                    <img src="https://mdbcdn.b-cdn.net/img/new/slides/017.webp" class="card-img" alt="Stony Beach"/>
+                    <div class="card-img-overlay text-center d-flex align-items-end">
+                        <div>
+                            <h4 class="card-title">9+  Years of Experience</h4>
+                            <p class="card-text fw-light">
+                                We have more than 9 years in MCX Market Research Experiance.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-dark text-white hover-shadow mt-5 mx-3" style="height: 250px; ">
+                    <img src="https://mdbcdn.b-cdn.net/img/new/slides/017.webp" class="card-img" alt="Stony Beach"/>
+                    <div class="card-img-overlay text-center d-flex align-items-end">
+                        <div>
+                            <h4 class="card-title">9+  Years of Experience</h4>
+                            <p class="card-text fw-light">
+                                We have more than 9 years in MCX Market Research Experiance.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-dark text-white hover-shadow mt-5 mx-3" style="height: 250px; ">
+                    <img src="https://mdbcdn.b-cdn.net/img/new/slides/017.webp" class="card-img" alt="Stony Beach"/>
+                    <div class="card-img-overlay text-center d-flex align-items-end">
+                        <div>
+                            <h4 class="card-title">9+  Years of Experience</h4>
+                            <p class="card-text fw-light">
+                                We have more than 9 years in MCX Market Research Experiance.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+      
+        <!-- feature services -->
+        <div class="container my-5 text-center " style="min-height: 60vh;">
+            <h2 class="pt-5">Featured Services</h2>
+            <div class="d-lg-flex justify-content-center">
+
+                <div class="card hover-shadow mt-3 mx-3">
+                    <img src="https://mdbcdn.b-cdn.net/img/new/slides/017.webp" class="card-img-top" height="200" alt="Fissure in Sandstone"/>
+                    <div class="card-body">
+                      <h5 class="card-title">DYNAMIC CRUDE OIL STRATEGY</h5>
+                    </div>
+                </div>
+
+                <div class="card hover-shadow mt-3 mx-3">
+                    <img src="https://mdbcdn.b-cdn.net/img/new/slides/017.webp" class="card-img-top" height="200" alt="Fissure in Sandstone"/>
+                    <div class="card-body">
+                      <h5 class="card-title">DYNAMIC CRUDE OIL STRATEGY</h5>
+                    </div>
+                </div>
+
+                <div class="card hover-shadow mt-3 mx-3">
+                    <img src="https://mdbcdn.b-cdn.net/img/new/slides/017.webp" class="card-img-top" height="200" alt="Fissure in Sandstone"/>
+                    <div class="card-body">
+                      <h5 class="card-title">DYNAMIC CRUDE OIL STRATEGY</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- contact us  -->
+        <div class="container my-5" style="min-height: 60vh;">
+            <div class="row" >
+                <div class="col-lg-6 p-4" style="background-color: rgb(247, 239, 239);">
+                <h2 class="my-4">Contact Us</h2>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <input type="text" class="form-control p-3 my-3" placeholder="First Name">
+                        </div>
+                        <div class="col-6">
+                            <input type="text" class="form-control p-3 my-3" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <input type="text" class="form-control p-3 my-3" placeholder="Email">
+                        </div>
+                        <div class="col-6">
+                            <input type="text" class="form-control p-3 my-3" placeholder="Phone">
+                        </div>
+                    </div>
+                    <textarea class="form-control p-3 my-3" placeholder="Enter your message"></textarea>
+                    <button class="btn btn-primary my-3  py-3">Send Message</button>
+                </div>
+                <div class="col-lg-6 mt-5 d-flex justify-content-center align-items-top ">
+                    <img src="static/img/dummy/about us img.png" height="350" >
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer class="bg-dark text-white" style="min-height: 50vh;">
+            <div class="container py-5 text-center">
+                <div class="row">
+                    <div class="col-lg-4 d-flex align-items-center">Copyright@2022</div>
+                    <div class="col-lg-4">
+                        <h3>Support</h3>
+                        <hr>
+                        <a href="" class="my-4"><p>Email: yourcompany@example.com</p></a>
+                        <a href="" class="my-4"><p>Phone: 987654321</p></a>
+                        <a href="" class="my-4"><p>Address: h5 , hauskaz , new delhi 10038</p></a>
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>Social</h3>
+                        <hr>
+                        <a href=""><p>Facebook</p></a>
+                        <a href=""><p>Telegram</p></a>
+                        <a href="">What's app</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>

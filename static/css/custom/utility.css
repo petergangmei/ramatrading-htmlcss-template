@@ -1,0 +1,24 @@
+body{
+    /* background-color: #F8F8F8; */
+    background-color: #f4f4f4;
+
+}
+.btn-primary{
+    background-color: #46599B !important;
+    color: white;
+    text-transform: initial;
+}
+.btn-secondary{
+    background-color: #056cb6 !important;
+    color: white;
+    text-transform: initial;
+    border-radius: 0;
+}
+.bg-custom1{
+    background-color:  #f3f0f0;;
+}
+
+.radius-0{
+    border-radius: 0;
+}
+
